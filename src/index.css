@@ -1,0 +1,8 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbtns{
+    @apply px-3 py-4 hover:bg-blue-800 rounded border-gray-50 text-white
+}
