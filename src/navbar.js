@@ -13,7 +13,7 @@ render() {
       <div class="mx-auto p-5 container">
         <nav class="flex justify-between">
             <div>
-                <a href="#">Blog</a>
+                <a> Blog-App </a>
             </div>
             <div class="flex flex-row">
                 <a href="#" className="pr-2.5 pl-2.5 rounded-lg hover:bg-purple-300 hover:text-white">Home</a>

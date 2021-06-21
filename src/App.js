@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import NavBar from './components/navbar';
+import NavBar from './navbar';
+import Feed from './feed';
+import PostDesign from './postDesign';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+//import homePage from './home';
+
 import './index.css';
 
 function App() {
@@ -7,7 +12,15 @@ function App() {
     <div>
       <header>
       </header>
-      <NavBar/>
+      <NavBar />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <Feed />
+          </Route>
+        </Switch>
+      </BrowserRouter>
+
     </div>
   );
 }
